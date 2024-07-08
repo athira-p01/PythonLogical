@@ -51,94 +51,93 @@ print(l)
 
 
 
-# list1 = [12, 14, 16, 18, 20]
-# list2 = [9, 10, 32, 54, 86]
-# l = list1 + list2
-# print(l)
-# print(list1)
-# print(list2)
+list1 = [12, 14, 16, 18, 20]
+list2 = [9, 10, 32, 54, 86]
+l = list1 + list2
+print(l)
+print(list1)
+print(list2)
 
 
-# list1 = [12, 14, 16, 18, 20, 23, 27, 39, 40]
-# print(len(list1))
-
-
-
-# list1 = [12, 14, 16, 39, 40]
-# for i in list1:
-#     print(i)
+list1 = [12, 14, 16, 18, 20, 23, 27, 39, 40]
+print(len(list1))
 
 
 
-# list1 = [103, 675, 321, 782, 200]
-# print(max(list1))
+list1 = [12, 14, 16, 39, 40]
+for i in list1:
+    print(i)
 
 
 
-# list1 = [103, 675, 321, 782, 200]
-# print(min(list1))
+list1 = [103, 675, 321, 782, 200]
+print(max(list1))
 
 
 
-# thislist = ["apple", "banana", "cherry"]
-# thislist.insert(2, "watermelon")
-# print(thislist)
-
-
-# thislist = ["apple", "banana", "cherry"]
-# thislist.append("orange")
-# print(thislist)
-
-
-# thislist = ["apple", "banana", "cherry"]
-# tropical = ["mango", "pineapple", "papaya"]
-# thislist.extend(tropical)
-# print(thislist)
+list1 = [103, 675, 321, 782, 200]
+print(min(list1))
 
 
 
-# thislist = ["apple", "banana", "cherry"]
-# thistuple = ("kiwi", "orange")
-# thislist.extend(thistuple)
-# print(thislist)
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(2, "watermelon")
+print(thislist)
+
+
+thislist = ["apple", "banana", "cherry"]
+thislist.append("orange")
+print(thislist)
+
+
+thislist = ["apple", "banana", "cherry"]
+tropical = ["mango", "pineapple", "papaya"]
+thislist.extend(tropical)
+print(thislist)
 
 
 
-# thislist = ["apple", "banana", "cherry"]
-# thislist.remove("banana")
-# print(thislist)
-
-
-#
-# thislist = ["apple", "banana", "cherry"]
-# thislist.pop(1)
-# print(thislist)
-
-# thislist = ["apple", "banana", "cherry"]
-# thislist.pop()
-# print(thislist)
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+thislist.extend(thistuple)
+print(thislist)
 
 
 
-# thislist = ["apple", "banana", "cherry"]
-# del thislist[0]
-# print(thislist)
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+print(thislist)
 
 
 
-# thislist = ["apple", "banana", "cherry"]
-# del thislist
+thislist = ["apple", "banana", "cherry"]
+thislist.pop(1)
+print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+thislist.pop()
+print(thislist)
 
 
 
-# thislist = ["apple", "banana", "cherry"]
-# thislist.clear()
-# print(thislist)
+thislist = ["apple", "banana", "cherry"]
+del thislist[0]
+print(thislist)
+
+
+
+thislist = ["apple", "banana", "cherry"]
+del thislist
+
+
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+print(thislist)
 
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 thislist.sort()
 print(thislist)
-#
+
 thislist = [100, 50, 65, 82, 23]
 thislist.sort(reverse = True)
 print(thislist)
