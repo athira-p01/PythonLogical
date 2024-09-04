@@ -5,5 +5,5 @@ for i in range(0,num):
     print(a,end=" ")
     c = a+b
     a = b
-    b =c
+    b = c
 print()

@@ -1,0 +1,7 @@
+a = input("Enter the name : ")
+print(a)
+print("*" + 8*"-" + len(a)*"-" + "*")
+print("|" + 8*" " + len(a)*" " + "|")
+print("|" + 4*" " + a + 4*" " + "|")
+print("|" + 8*" " + len(a)*" " + "|")
+print("*" + 8*"-" + len(a)*"-" + "*")
